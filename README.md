@@ -10,3 +10,5 @@ First configure an environment usind conda https://github.com/udacity/CarND-Term
 Download the simulator https://www.dropbox.com/sh/64lxq4heqnvsasm/AAC3Oz9mM35y8dXKMIa7ncFea?dl=0
 
 
+
+
