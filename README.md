@@ -3,7 +3,7 @@
 This repo have all source codes of the autonomous navigation from a sclae vehicle using deep neural networks.
 
 #### UDACITY software
-In this part we are using Behavioral Cloning Project software https://github.com/udacity/CarND-Behavioral-Cloning-P3.
+In this part we are using Behavioral Cloning Project software, all description is in https://github.com/udacity/CarND-Behavioral-Cloning-P3.
 
 First configure a virtual environment using Conda https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md
 
