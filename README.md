@@ -7,5 +7,6 @@ In this part we are using Behavioral Cloning Project software.
 
 First configure an environment usind conda https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md
 
-Download the simulator
+Download the simulator https://www.dropbox.com/sh/64lxq4heqnvsasm/AAC3Oz9mM35y8dXKMIa7ncFea?dl=0
+
 
