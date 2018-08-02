@@ -22,6 +22,7 @@ python2 bag2DataTrainTCompresed.py nombreBolsa.bag
 ```
 
 ### Limpiar datos utilizando un archivo auxiliar
+El script busca "imagenesBolsa" y "datosBolsa.csv" en la carpeta actual
 ```
 python2 clearDataBag.py util_data
 ```
