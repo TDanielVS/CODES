@@ -1,5 +1,4 @@
-* Descargar
-https://repo.continuum.io/miniconda/
+* Descargar "Miniconda3-4.3.30-Linux-x86_64.sh" https://repo.continuum.io/miniconda/
 
 * Instalar
 ```
@@ -11,15 +10,14 @@ bash Miniconda3-4.3.30-Linux-x86_64.sh
 conda update conda
 ```
 
-* Desinstalar
-rm -rf ~/miniconda
-
-##remove PATH 
-edit: ~/.bash_profile 
-
+* Crear ambiente
+```
+conda env create -f environment.yml
+```
 
 
-###################
+
+
 Activar ambiente:
 ```
 pip install pyros_setup
