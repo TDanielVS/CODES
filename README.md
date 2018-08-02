@@ -9,12 +9,14 @@ First configure a virtual environment using Conda https://github.com/udacity/Car
 
 Download the simulator. I recommend record the training data set in windows version, it runs faster and have better response using controls or steering wheel. Use linux version to test trained networks. https://www.dropbox.com/sh/64lxq4heqnvsasm/AAC3Oz9mM35y8dXKMIa7ncFea?dl=0.
 
+Source code "cloning vehaviour"
+
 ### ROS Indigo AutoNOMOS mini platform
 We have the model v1, all documentation is on the official web page https://github.com/AutoModelCar/AutoModelCarWiki/wiki
 
 Install ROS indigo or newer version on your computer http://wiki.ros.org/indigo/Installation/Ubuntu
 
-Create the conda environment
+Source code "model car"
 
 
 
