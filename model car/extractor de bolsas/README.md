@@ -13,7 +13,9 @@ nombreBolsa.bag con los topicos:
 Opcional: archivo para selecionar frames "util_data"
 
 ### Extraer datos de entrenamiento
+```
 python2 bag2DataTrainTCompresed.py nombreBolsa.bag
+```
 
 ### Limpiar datos utilizando un archivo auxiliar
 ```
