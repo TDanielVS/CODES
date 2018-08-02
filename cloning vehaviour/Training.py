@@ -46,7 +46,7 @@ for i in range(times):  # elimina el valor que más se repite
     seconds.remove(val_max)
     
 val = max(set(seconds), key=seconds.count)  # El más repetido ahora
-times = seconds.count(val)  # Get concurrences
+times = seconds.count(val)
 print("Segundo que más se repite:", val, "encontrado", times, "veces")
 
 # Plot de la distribución sin el más repetido
