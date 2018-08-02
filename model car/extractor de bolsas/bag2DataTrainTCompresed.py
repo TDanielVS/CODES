@@ -6,13 +6,13 @@ def save_topics(bag=None, num_msgs=None, topics=None, bag_name=''):
     num_ceros = len(str(num_msgs))
     bridge = CvBridge()
 
-    # Create images folder
+    # Crea el folder de las imagenes
     path_save = 'imagenesBolsa'
     if os.path.exists(path_save):
-        shutil.rmtree(path_save)  # remove old path
-    os.makedirs(path_save)
+        shutil.rmtree(path_save)  # Borra el folder anterior
+    os.makedirs(path_save) # Crea un nuevo folder
 
-    # Write header csv
+    # Escribe el encabezado del archivo csv
     file_csv = open('datosBolsa.csv', 'wt')
     writer = csv.writer(file_csv)
     writer.writerow(('Image name', 'Speed value', 'Steering value'))
@@ -22,7 +22,7 @@ def save_topics(bag=None, num_msgs=None, topics=None, bag_name=''):
     steering_list = []
     count = 1
     for topic, msg, t in bag.read_messages():
-        if topic == topics[0]:  # image_raw_compresed
+        if topic == topics[0]:  # topico image_raw_compresed
             try:
                 cv_image = bridge.compressed_imgmsg_to_cv2(msg, "bgr8")
             except CvBridgeError, e:
@@ -34,12 +34,12 @@ def save_topics(bag=None, num_msgs=None, topics=None, bag_name=''):
             cv2.imwrite(os.path.join(path_save, image_name), cv_image)
             count += 1
 
-        if topic == topics[1]:  # speed
+        if topic == topics[1]:  # topico speed
             tiempo = str(t)
             val = str(msg).split()[-1]
             speed_list.append({tiempo: val})
 
-        if topic == topics[2]:
+        if topic == topics[2]:  # topico steering
             tiempo = str(t)
             val = str(msg).split()[-1]
             steering_list.append({tiempo: val})
