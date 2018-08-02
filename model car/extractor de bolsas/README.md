@@ -18,7 +18,7 @@ Requiere un archivo con los frames que desee conservar,
 el primer frame empieza con 1 hasta el numero de mensajes en la bolsa.
 Removera todo dato que NO este indexado en este archivo 
 
-### Ejemplo del contenido de util_data:
+### Ejemplo válido del contenido de util_data:
 ----
 1-15
 
@@ -29,13 +29,13 @@ Removera todo dato que NO este indexado en este archivo
 40-100
 
 102
-
 ----
 
-el archivo conservará los frames
-1 a 15
-mas el frame 18
-mas los frames 25 a 29
-y asi consecutivamente
+El archivo conservará los frames indicados en el archivo.
+10-25: toma los frames del 10 al 25
+30: Agrega solo el frame 30
 
+La última línea del archivo debe ser un numero o un rango, no dejar líneas en blanco
+32-40: <- Aquí termina el archivo
+<- No debe haver líneas despues de los números
 
