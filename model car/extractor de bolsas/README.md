@@ -29,12 +29,14 @@ Removera todo dato que NO este indexado en este archivo
 40-100
 
 102
+
 ----
 
 El archivo conservará los frames indicados en el archivo.
 10-25: toma los frames del 10 al 25
 30: Agrega solo el frame 30
 
+# NOTA
 La última línea del archivo debe ser un numero o un rango, no dejar líneas en blanco
 32-40: <- Aquí termina el archivo
 <- No debe haver líneas despues de los números
