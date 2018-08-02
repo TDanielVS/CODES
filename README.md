@@ -12,7 +12,7 @@ Download the simulator. I recommend record the training data set in windows vers
 Source code "cloning vehaviour"
 
 ### ROS Indigo AutoNOMOSmini platform
-We have the model v1, all documentation is on the official web page https://github.com/AutoModelCar/AutoModelCarWiki/wiki
+We have the model car v1, all documentation is on the official web page https://github.com/AutoModelCar/AutoModelCarWiki/wiki
 
 Install ROS indigo or newer version on your computer http://wiki.ros.org/indigo/Installation/Ubuntu
 
