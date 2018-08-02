@@ -13,6 +13,10 @@ nombreBolsa.bag con los topicos:
 Opcional: archivo para selecionar frames "util_data"
 
 ### Extraer datos de entrenamiento
+El siguiente comando extrae las imágenes en una carpeta llamada 
+"imagenesBolsa" y crea el archivo "datosBolsa.csv"
+
+Suponiendo que el script se encuentra en la misma carpeta que la bolsa de ros:
 ```
 python2 bag2DataTrainTCompresed.py nombreBolsa.bag
 ```
