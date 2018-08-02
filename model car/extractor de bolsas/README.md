@@ -28,7 +28,7 @@ python2 clearDataBag.py util_data
 ```
 Requiere un archivo con los frames que desee conservar,
 el primer frame empieza con 1 hasta el numero de mensajes en la bolsa.
-Removera todo dato que NO este indexado en este archivo 
+Removera todo frame que NO este indicado en este archivo 
 
 ### Ejemplo válido del contenido de util_data:
 ----
