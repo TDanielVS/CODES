@@ -44,6 +44,7 @@ print("Valor que más se repite:", val_max, "encontrado", times, "veces")
 seconds = angulos.copy()
 for i in range(times):  # elimina el valor que más se repite
     seconds.remove(val_max)
+    
 val = max(set(seconds), key=seconds.count)  # El más repetido ahora
 times = seconds.count(val)  # Get concurrences
 print("Segundo que más se repite:", val, "encontrado", times, "veces")
@@ -52,9 +53,9 @@ print("Segundo que más se repite:", val, "encontrado", times, "veces")
 if plotear:
     plt.hist(seconds, normed=False, bins=BINS)
     plt.show()
-seconds.clear()
-
+    
 # Limpiar arreglos
+seconds.clear()
 cleared_samples = []
 angulos2 = []
 angulosFlip = []
