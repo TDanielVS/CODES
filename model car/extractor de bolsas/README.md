@@ -1,5 +1,5 @@
 # Requisitos:
-python 2, ros, bolsa:
+python 2, ros, bolsa de ros
 
 nombreBolsa.bag con los topicos:
 	/app/camera/rgb/image_raw/compressed
