@@ -1,7 +1,7 @@
 # Requisitos:
 python 2.7, ros indigo o superior, bolsa de ros
 
-nombreBolsa.bag con los topicos:
+<nombre_de_la_Bolsa>.bag con los topicos:
 
 	/app/camera/rgb/image_raw/compressed
 	
@@ -18,7 +18,7 @@ El siguiente comando extrae las imágenes en una carpeta llamada
 
 Suponiendo que el script se encuentra en la misma carpeta que la bolsa de ros:
 ```
-python2 bag2DataTrainTCompresed.py nombreBolsa.bag
+python2 bag2DataTrainTCompresed.py <nombre_de_la_Bolsa>.bag
 ```
 
 ### Limpiar datos utilizando un archivo auxiliar
