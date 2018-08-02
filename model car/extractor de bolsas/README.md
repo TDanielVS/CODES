@@ -55,5 +55,5 @@ La última línea del archivo debe ser un numero o un rango, no dejar líneas en
 
 32-40: <- Aquí termina el archivo
 
-<- No debe haver líneas despues de los números
+<- No debe haver líneas en blanco despues de los números
 
