@@ -2,9 +2,13 @@
 python 2.7, ros indigo o superior, bolsa de ros
 
 nombreBolsa.bag con los topicos:
+
 	/app/camera/rgb/image_raw/compressed
+	
 	/manual_control/speed
+	
 	/manual_control/steering
+
 
 Opcional: archivo para selecionar frames "util_data"
 
