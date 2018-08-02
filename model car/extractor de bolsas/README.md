@@ -51,7 +51,7 @@ El archivo conservará los frames indicados en el archivo.
 30: Agrega solo el frame 30
 
 # NOTA
-La última línea del archivo debe ser un numero o un rango, no dejar líneas en blanco
+La última línea del archivo debe ser un numero o un rango, no dejar líneas en blanco ni espacios.
 
 32-40: <- Aquí termina el archivo
 
