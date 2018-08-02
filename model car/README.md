@@ -1,3 +1,7 @@
-# Training
+# AutoNOMOSmini
 
-# Test
+### Create conda environment
+
+### Training
+
+### Test
