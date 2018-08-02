@@ -1,5 +1,6 @@
 # Requisitos:
 python 2, ros, bolsa:
+
 nombreBolsa.bag con los topicos:
 	/app/camera/rgb/image_raw/compressed
 	/manual_control/speed
