@@ -1,10 +1,12 @@
 # AutoNOMOSmini
-Create a virtual environment, all instructions in Conda Env folder.
+Create a virtual environment, all instructions in "Conda Env" folder.
 
-Record data with rosbag record http://wiki.ros.org/rosbag/Commandline
+Record some data with rosbag record command http://wiki.ros.org/rosbag/Commandline
 
-Clear your data 
+Clear your data with the scripts in "extractor de bolsas" folder
 
 ### Training
+
+
 
 ### Test
