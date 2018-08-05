@@ -1,9 +1,9 @@
 # CODES
 
-This repo has all source codes of the autonomous navigation from a scale vehicle using deep neural networks.
+This repository has all source codes of the autonomous navigation from a scale vehicle using deep neural networks. There are three phases in this work, learn how to do it using Udacity Software, next applying the techniques learned to control a scale 1:10 vehicle, finally whit or own tool we speeding up the process trough transfer learning technique.
 
 #### UDACITY software
-In this part we are using Behavioral Cloning Project software, all description is on https://github.com/udacity/CarND-Behavioral-Cloning-P3.
+Replicate the Behavioral Cloning Project, all description is on https://github.com/udacity/CarND-Behavioral-Cloning-P3.
 
 First configure a virtual environment using Conda https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md
 
