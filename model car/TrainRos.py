@@ -132,7 +132,7 @@ validation_generator = generator(validation_samples, batch_size=16)
 
 # Arquitectura de la red
 model = Sequential()
-model.add(Lambda(lambda x: x / 255.0, input_shape=(240, 320, 3)))
+model.add(Lambda(lambda x: x / 255.0 - 0.5, input_shape=(240, 320, 3)))
 model.add(Cropping2D(cropping=((48, 0), (0, 0))))
 model.add(Convolution2D(3, 5, 5, subsample=(2,2), activation="relu"))
 model.add(Convolution2D(24, 5, 5, subsample=(2, 2), activation="relu"))
