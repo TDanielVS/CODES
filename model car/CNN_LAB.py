@@ -94,7 +94,8 @@ if __name__ == '__main__':
 
     modeloEntrenado = load_model(path + 'model.h5')
     # Se carga una imágen de prueba, sin este paso la red no manda datos al subscribirse al tópico
-    image_np = mpimg.imread("/home/dv_user/Documents/imag_cap/" + 'outfile.jpg')  # No borrar los siguientes códigos
+    # No borrar los siguientes códigos
+    image_np = mpimg.imread("/home/user/Documents/imag_cap/" + 'outfile.jpg')  # TODO: Actualizar path
     if reduce:
         image_np = cv2.resize(image_np, (320, 240), interpolation=cv2.INTER_CUBIC)
     angulo = (modeloEntrenado.predict(image_np[None, :, :, :], batch_size=1, verbose=0))
