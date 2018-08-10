@@ -1,0 +1,13 @@
+<!-- Laser rplidar for turtlebot -->
+
+<launch>
+  <!-- joy node for the gamepad --> 
+  <node respawn="true" pkg="joy" type="joy_node" name="joy_node"> 
+    <param name="autorepeat_rate" type="double" value="20" />
+    <param name="dev" type="string" value="/dev/input/js0" /> </node>
+
+  <!-- Start node to convert steering commands -->
+  <node name="control360_node" pkg="control360" type="control360_node" >
+
+  </node>
+</launch>
