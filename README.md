@@ -28,4 +28,4 @@ Compatibility with X-box 360 controllers.
 
 Total compatibility with AutoNOMOSmini platform, especially after applying transfer learning technique.
 
-All source codes in "transfear_learning" folder
+All source codes in "transfer_learning" folder
