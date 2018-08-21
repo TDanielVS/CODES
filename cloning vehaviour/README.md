@@ -1,4 +1,4 @@
-  # CLONING BEHAVIOUR
+  # Cloning behaviour
 
 model.h5 is a pre trained neural network using our own data set, create yours before start training.
 
