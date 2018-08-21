@@ -26,6 +26,6 @@ You can choose between two different tracks on a realistic environment, based on
 
 Compatibility with X-box 360 controllers.
 
-All trainings have compatibility with AutoNOMOSmini platform, especially after applying transfer learning technique.
+Total compatibility with AutoNOMOSmini platform, especially after applying transfer learning technique.
 
 All source codes in "transfear_learning" folder
