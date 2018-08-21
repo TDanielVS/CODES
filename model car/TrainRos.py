@@ -162,13 +162,12 @@ elapsed_time = time.time() - start_time
 print('Tiempo: %.3f[s]' % (elapsed_time))
 
 print(history_object.history.keys())
-plt.plot(history_object.history['loss'], label='train')
-plt.plot(history_object.history['val_loss'], label='test')
-plt.title('model loss')
-plt.ylabel('loss')
-plt.xlabel('epoch')
-plt.legend(['train', 'test'], loc='upper right')
+plt.plot(history_object.history['loss'], label='entrenamiento')
+plt.plot(history_object.history['val_loss'], label='validación')
+plt.title('Entrenamiento')
+plt.ylabel('Error cuadratico medio')
+plt.xlabel('epocas')
+plt.legend(['entrenamiento', 'validación'], loc='upper right')
 plt.show()
-
 
 exit()
