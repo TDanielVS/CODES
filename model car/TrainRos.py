@@ -12,7 +12,7 @@ import random
 from keras import callbacks
 import cv2
 
-path = '/home/dv_user/Documents/TrainSet/CicloComprMergeAll/' #15554 -> 5465
+path = '/home/user/Documents/DataSet/'  # TODO: change dataset path 
 path_image = path + 'imagenesBolsa/'
 
 samples = []
