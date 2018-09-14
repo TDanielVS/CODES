@@ -10,3 +10,4 @@ Use the code TrainRos.py to train the model whit the data set created before.
 
 
 ### Test
+Use the code CNN_LAB.py you must be connected to the car wireless way in order to send the commands to the car.
