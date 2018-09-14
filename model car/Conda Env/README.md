@@ -20,7 +20,7 @@ Activate environment / Activar ambiente:
 source activate envpy3
 ```
 
-Once updated, execute the following commands:
+Once activated the environment, execute the following commands:
 / Una vez activado el ambiente, ejecutar los siguientes comandos:
 ```
 pip install pyros_setup
