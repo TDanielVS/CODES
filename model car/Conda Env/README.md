@@ -1,31 +1,33 @@
-* Descargar "Miniconda3-4.3.30-Linux-x86_64.sh" https://repo.continuum.io/miniconda/
+* Download/Descargar "Miniconda3-4.3.30-Linux-x86_64.sh" https://repo.continuum.io/miniconda/
 
-* Instalar
+* Install/Instalar
 ```
 bash Miniconda3-4.3.30-Linux-x86_64.sh
 ```
 
-* Actualizar miniconda
+* Update/Actualizar miniconda
 ```
 conda update conda
 ```
 
-* Crear ambiente
+* Create environment / Crear ambiente
 ```
 conda env create -f environment.yml
 ```
 
-Activar ambiente:
+Activate environment / Activar ambiente:
 ```
 source activate envpy3
 ```
 
-Una vez activado el ambiente, ejecutar los siguientes comandos:
+Once updated, execute the following commands:
+/ Una vez activado el ambiente, ejecutar los siguientes comandos:
 ```
 pip install pyros_setup
 pip install catkin_pkg
 pip install -U rospkg
 ```
+If is necesary, include the command:
 En caso de ser necesario incluir el comando:
 ```
 pip install opencv-python
