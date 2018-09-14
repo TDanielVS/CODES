@@ -27,8 +27,8 @@ pip install pyros_setup
 pip install catkin_pkg
 pip install -U rospkg
 ```
-If is necesary, include the command:
-En caso de ser necesario incluir el comando:
+If is necessary, include the command:
+/En caso de ser necesario incluir el comando:
 ```
 pip install opencv-python
 ```
