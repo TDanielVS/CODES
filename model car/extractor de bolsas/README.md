@@ -1,4 +1,4 @@
-## ENGLISH
+## (ENGLISH)
 # Requirements:
 python 2.7, ros indigo or newer, ros bag file
 
@@ -61,7 +61,7 @@ Last line in the auxiliar file must be a number NOT a blank line, Do not left em
 
 _______________________________
 _______________________________
-## ESPAÑOL
+## (ESPAÑOL)
 # Requisitos:
 python 2.7, ros indigo o superior, bolsa de ros
 
