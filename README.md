@@ -9,14 +9,14 @@ First configure a virtual environment using Conda https://github.com/udacity/Car
 
 Download the simulator. I recommend recording the training data set in windows version, it runs faster and have better response using controls or steering wheel. Use linux version to test trained networks. https://www.dropbox.com/sh/64lxq4heqnvsasm/AAC3Oz9mM35y8dXKMIa7ncFea?dl=0.
 
-All source codes in "cloning vehaviour" folder
+All source codes are in "cloning vehaviour" folder
 
 ### ROS Indigo AutoNOMOSmini platform
 We have tested in the model car v1, all documentation is on the official web page https://github.com/AutoModelCar/AutoModelCarWiki/wiki
 
 Install ROS indigo or newer version on your computer http://wiki.ros.org/indigo/Installation/Ubuntu
 
-All source codes in "model car" folder
+All source codes are in "model car" folder
 
 ### Transfer learning 
 
@@ -28,4 +28,4 @@ Compatibility with X-box 360 controllers.
 
 Total compatibility with AutoNOMOSmini platform, especially after applying transfer learning technique.
 
-All source codes in "transfer_learning" folder
+All source codes are in "transfer_learning" folder
