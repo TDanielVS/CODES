@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: b20a200020524e94abfc2f9691709c2b
+timeCreated: 1524324112
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Madera
+    100002: //RootNode
+    100004: Palanca_D
+    100006: Palanca_I
+    100008: Pibote
+    100010: RuedaF_D
+    100012: RuedaF_I
+    100014: Ruedas
+    100016: RuedaT_D
+    100018: RuedaT_I
+    400000: Madera
+    400002: //RootNode
+    400004: Palanca_D
+    400006: Palanca_I
+    400008: Pibote
+    400010: RuedaF_D
+    400012: RuedaF_I
+    400014: Ruedas
+    400016: RuedaT_D
+    400018: RuedaT_I
+    2100000: Pivot
+    2100002: Metalico
+    2100004: Palanc
+    2100006: Mat_Mesa
+    2100008: ruedas
+    2300000: Madera
+    2300002: //RootNode
+    2300004: Palanca_D
+    2300006: Palanca_I
+    2300008: Pibote
+    2300010: RuedaF_D
+    2300012: RuedaF_I
+    2300014: RuedaT_D
+    2300016: RuedaT_I
+    3300000: Madera
+    3300002: //RootNode
+    3300004: Palanca_D
+    3300006: Palanca_I
+    3300008: Pibote
+    3300010: RuedaF_D
+    3300012: RuedaF_I
+    3300014: RuedaT_D
+    3300016: RuedaT_I
+    4300000: MesaBase
+    4300002: Pibote
+    4300004: Palanca_I
+    4300006: Palanca_D
+    4300008: Madera
+    4300010: RuedaT_D
+    4300012: RuedaF_D
+    4300014: RuedaT_I
+    4300016: RuedaF_I
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Mesa
+    second: {fileID: 2100000, guid: 08524139acf24154587c42cd27af53b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metalico
+    second: {fileID: 2100000, guid: a75cf215f3d6cee41a03e8f54ee643d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palanc
+    second: {fileID: 2100000, guid: 871e11fcc4456cd47ba89b0103a3aa1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pivot
+    second: {fileID: 2100000, guid: 8b61c760382e21f4791021136fc9d197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruedas
+    second: {fileID: 2100000, guid: 18b6af84a3bc0954199c099dc0d2c70c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: f2c1529059161a846a4f86e3803b2a0e
+timeCreated: 1524178369
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: puertaB
+    2100002: Pilar_Concreto
+    2100004: Pilar_Fondo
+    2100006: Pilar_MADERA
+    2100008: Pilar_Librero
+    2100010: Glass
+    2100012: Metalico
+    2100014: puertaMorada
+    2100016: puertaNaranja
+    2100018: puertaRoja
+    2100020: puertaVerde
+    2100022: puertaAzul
+    2100024: puertaGris
+    2100026: Aire
+    2100028: ext1
+    2100030: pasillo
+    2100032: ext4
+    2100034: ext2
+    2100036: cub7
+    2100038: cub8
+    2100040: cub5
+    2100042: cub6
+    2100044: cub1
+    2100046: cub2
+    2100048: lab
+    2100050: cub9
+    2100052: cub10
+    2100054: cub11
+    2100056: cub4
+    2100058: cub3
+    2100060: ext3
+    2100062: metalAzul
+    2100064: mosaiko
+    2100066: AlfombRoja
+    2100068: alfAzul
+    2100070: barra
+    2100072: fridge
+    2100074: multt
+    2100076: Rack_lambert2
+    2100078: Rack_front1
+    2100080: loquers
+    2100082: Pizarron
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Escenario
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aire
+    second: {fileID: 2100000, guid: 460a23dd5ad7ea444954afa741aa19f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AlfombRoja
+    second: {fileID: 2100000, guid: 4361112cd026a45448380ae3d94517dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 4bedc2b278dbe5d4ca4c49c708538738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metalico
+    second: {fileID: 2100000, guid: 8b61c760382e21f4791021136fc9d197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Concreto
+    second: {fileID: 2100000, guid: 8e76466457eadf34e9a517632e3bdfef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Fondo
+    second: {fileID: 2100000, guid: 20a510aa8ac1f5a4eabcb91fbbd8590d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Librero
+    second: {fileID: 2100000, guid: 2472362d4adb3c04bbf9140617db927d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar_MADERA
+    second: {fileID: 2100000, guid: ba690e842cb9b624d9fa81ad522aad15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pizarron
+    second: {fileID: 2100000, guid: 4010375b448361e4e96d12c24130e607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_front1
+    second: {fileID: 2100000, guid: 9052812deb3126b48b0c93de2258c542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rack_lambert2
+    second: {fileID: 2100000, guid: 95cc7f7f17da5c348be1a05452ffd139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alfAzul
+    second: {fileID: 2100000, guid: 2a773d2f4d3935447be0f2ebcd72305d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barra
+    second: {fileID: 2100000, guid: b796df18a24e38b45a946e93f8ba93c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub1
+    second: {fileID: 2100000, guid: 71e760d435dbc9143924d3e53b9223e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub10
+    second: {fileID: 2100000, guid: 51c7f90427e68c04a9cb9126d23ba296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub11
+    second: {fileID: 2100000, guid: e68bdcd3f1db19c4fb519ef2c62cf75c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub2
+    second: {fileID: 2100000, guid: 8303b6c3d5e08234a8b9e5d937dcd273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub3
+    second: {fileID: 2100000, guid: 8c75545df6cdc86459e7ed981b28f2d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub4
+    second: {fileID: 2100000, guid: 65c050f242bb880428906728c990286c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub5
+    second: {fileID: 2100000, guid: 645fc0e7f65f0b04aad03afe81735552, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub6
+    second: {fileID: 2100000, guid: 28b7e3a921d0160438130b06a5c8678c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub7
+    second: {fileID: 2100000, guid: e741496292eab534bb756aebaca12ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub8
+    second: {fileID: 2100000, guid: 47f367d83725f9b47a4d541574e23422, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cub9
+    second: {fileID: 2100000, guid: 1e67f3589a19ed440a179d0ff1f1b2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ext1
+    second: {fileID: 2100000, guid: b2920c61a9d0cca4c96cd9a751a8042f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ext2
+    second: {fileID: 2100000, guid: 3bf982a0856afb84099dd6cb7b4158e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ext3
+    second: {fileID: 2100000, guid: 050c21f6e6a1d1948811ccfe783f8eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ext4
+    second: {fileID: 2100000, guid: 5ae9ca1119f8a4b4c9b381008be83948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridge
+    second: {fileID: 2100000, guid: 18caee7e598aec24ea001a4cf8e5804e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab
+    second: {fileID: 2100000, guid: b54d13407a9e2d845831d26358d78ea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loquers
+    second: {fileID: 2100000, guid: eda702571f82b0d4aa364b7e9fd3b4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalAzul
+    second: {fileID: 2100000, guid: f467fb069efedac4dbff163315b6ff6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mosaiko
+    second: {fileID: 2100000, guid: e02f01ab024514540b5d5ff2b4baca23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: multt
+    second: {fileID: 2100000, guid: 6a26c72cd5dcfd64587992cc93889cb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasillo
+    second: {fileID: 2100000, guid: 5d8be20cdb10e2642ba23e96a4b3576a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaAzul
+    second: {fileID: 2100000, guid: 575e31cac4ba66f4e94122915ac0323d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaB
+    second: {fileID: 2100000, guid: 8c038f4ea86dde948886e997d5291c6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaGris
+    second: {fileID: 2100000, guid: 26ddad13660fc7846a647bd01e16c921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaMorada
+    second: {fileID: 2100000, guid: b639492c59050034580814601e1accc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaNaranja
+    second: {fileID: 2100000, guid: da2fd16f647f74a4ca417662da6e3e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaRoja
+    second: {fileID: 2100000, guid: 8533c331c2c75214bbc016a6a76116b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puertaVerde
+    second: {fileID: 2100000, guid: c2f0bcee63f5d004eac8386aa216ac30, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
