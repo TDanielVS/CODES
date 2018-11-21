@@ -19,7 +19,7 @@ The command below extracts all images from a bag file in to a folder
 
 An example were the script is in the same folder as the ros bag file:
 ```
-python2 bag2DataTrainTCompresed.py <nombre_de_la_Bolsa>.bag
+python2 bag2DataTrainTCompresed.py <Rosbag_name>.bag
 ```
 
 ### Clear data using auxiliary file
