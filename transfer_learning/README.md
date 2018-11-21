@@ -19,3 +19,6 @@ Run the python code in your virtual environment:
 Python3 driveCIC.py model.h
 ```
 Socket will wait for exe version of the simulator runs, then you can use autonomous mode to test your model.
+
+
+The model trained with “TrainSim.py” or “Transfer.py” can be used in the “model car” section from this repository to control AutoNOMOSmini platform.
