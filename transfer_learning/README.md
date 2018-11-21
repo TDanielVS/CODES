@@ -12,11 +12,11 @@ Python3 TrainSim.py
 ```
 
 ## Running
-model.h is the model saved from the training step
+model.h5 is the model saved from the training step
 
 Run the python code in your virtual environment:
 ```
-Python3 driveCIC.py model.h
+Python3 driveCIC.py model.h5
 ```
 Socket will wait for exe version of the simulator runs, then you can use autonomous mode to test your model.
 
