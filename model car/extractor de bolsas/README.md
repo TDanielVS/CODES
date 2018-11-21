@@ -1,3 +1,65 @@
+# Requirements:
+python 2.7, ros indigo or newer, ros bag file
+
+<Rosbag_name>.bag with topics:
+
+	/app/camera/rgb/image_raw/compressed
+	
+	/manual_control/speed
+	
+	/manual_control/steering
+
+
+Optional: file to select frames "util_data"
+
+### Extract training data
+The command below extracts all images from a bag file in to a folder
+"imagenesBolsa" and its related file "datosBolsa.csv"
+
+An example were the script is in the same folder as the ros bag file:
+```
+python2 bag2DataTrainTCompresed.py <nombre_de_la_Bolsa>.bag
+```
+
+### Clear data using auxiliary file
+The script searches from "imagenesBolsa" and "datosBolsa.csv" in the actual folder
+```
+python2 clearDataBag.py util_data
+```
+This requiere a file whit the frames wanna conserve in it,
+frames are from 1 to the last message in the bag file.
+All frames NOT indicated in the file will be removed.
+ 
+
+### A valid example from util_data content:
+----
+1-15
+
+18
+
+25-29
+
+40-100
+
+102
+
+----
+
+The file will keep all frames indicated in the file.
+
+10-25: take all frames from 10 to 25
+
+30: Adds only the frame 30
+
+# NOTE
+Last line in the auxiliar file must be a number NOT a blank line, Do not left empty lines or spaces.
+
+32-40: <- Here ends the file
+
+<- Do not must be empty lines after any numbers
+
+_______________________________
+_______________________________
 # Requisitos:
 python 2.7, ros indigo o superior, bolsa de ros
 
