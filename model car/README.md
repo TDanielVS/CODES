@@ -13,4 +13,4 @@ Use the code TrainRos.py to train the model whit the data set created before.
 Use the code CNN_LAB.py.
 
 You must be connected to the car by wireless in order to send commands to the car.
-Before start receiving images from ROS topic, the model must load a test picture, otherwise the steering prediction can't be published.
+Before start receiving images from ROS topic, the model must load a test picture (like outfile.jpg), otherwise the steering prediction can't be published.
