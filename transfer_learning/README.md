@@ -1,4 +1,4 @@
-## SIMULATOR
+###### SIMULATOR
 Implement a simulator tool to train a convolutional neural network, then apply transfer learning in order to control AutoNOMOSmini platform. Download Windows or Linux executable version from the simulator in “Executables” folder, then collect your own dataset preferably in Windows version.
 
 Go to “model car” folder and follow the instructions to create a virtual environment with Conda. After activate the virtual environment proceed to train or run.
