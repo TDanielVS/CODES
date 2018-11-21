@@ -53,7 +53,7 @@ The file will keep all frames indicated in the file.
 30: Adds only the frame 30
 
 # NOTE
-Last line in the auxiliar file must be a number NOT a blank line, Do not left empty lines or spaces.
+Last line in the auxiliar file must be a number NOT a blank line, do not left empty lines or spaces.
 
 32-40: <- Here ends the file
 
